@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ESZ shop</title>
+  <link rel="stylesheet" href="stl.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" />
+</head>
+<body>
+  <!-- Barre de navigation -->
+  <nav>
+    <img src="zzzz.jpg" alt="" width="50px" height="50px" class="eszlogo">
+    <h1>ES Zarzis</h1>
+    <div class="onglets">
+      <p class="link">Nouveautés</p>
+      <p class="link">Homme</p>
+      <p class="link">Femme</p>
+      <p class="link">Enfant</p>
+      <p class="link">Cadeaux</p>
+      <form>
+        <input type="search" placeholder="Rechercher">
+      </form>
+      
+      <p><i class="far fa-heart"></i></p>
+      <p><i class="fas fa-shopping-cart"></i></p>
+    </div>
+  </nav>
+  <!-- Fin de la barre de navigation -->
+  
+  <!-- Header -->
+   <header>
+    <div class="slider">
+        <div class="slides">
+          <!--radio buttons start-->
+          <input type="radio" name="radio-btn" id="radio1">
+          <input type="radio" name="radio-btn" id="radio2">
+          <input type="radio" name="radio-btn" id="radio3">
+          <input type="radio" name="radio-btn" id="radio4">
+          <!--radio buttons end-->
+          <!--slide images start-->
+          <div class="slide first">
+            <img src="zz.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="zar.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="zsz.jpg" alt="">
+          </div>
+          <div class="slide">
+            <img src="eszz.jpg" alt="">
+          </div>
+          <!--slide images end-->
+          <!--automatic navigation start-->
+          <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+          </div>
+          <!--automatic navigation end-->
+        </div>
+        <!--manual navigation start-->
+        <div class="navigation-manual">
+          <label for="radio1" class="manual-btn"></label>
+          <label for="radio2" class="manual-btn"></label>
+          <label for="radio3" class="manual-btn"></label>
+          <label for="radio4" class="manual-btn"></label>
+        </div>
+        <!--manual navigation end-->
+      </div>
+      <!--image slider end-->
+  
+      <script type="text/javascript">
+      var counter = 1;
+      setInterval(function(){
+        document.getElementById('radio' + counter).checked = true;
+        counter++;
+        if(counter > 4){
+          counter = 1;
+        }
+      }, 5000);
+      </script>
+     
+   </header>
+   <div class="tktk">
+    <h1>C'est votre boutique, votre chez-vous.</h1>
+    <button>Naviguer <i class="fas fa-paper-plane"></i></button>
+    </div>
+  <!-- Fin du header -->
+  
+  <!-- Section principale -->
+  <section class="main">
+    
+    <!-- Toutes les cartes -->
+    
+    <div class="cards">
+      
+      <div class="card">
+        <img src="m1.png" class="pht">
+        <div class="card-header">
+          <h4 class="title">Maillot d'entrainement</h4>
+          <h4 class="price">65DT</h4>
+        </div>
+        <div class="card-body">
+          <p>Maillots d'entrainement Espérance Sportive de Zarzis</p>
+        </div>
+      </div>
+      
+      <div class="card">
+        <img src="m3.png" class="pht">
+        <div class="card-header">
+          <h4 class="title">Maillot de la tunisie</h4>
+          <h4 class="price">89DT</h4>
+        </div>
+        <div class="card-body">
+          <p>Maillot de la tunisie domicile 2022</p>
+        </div>
+      </div>
+      
+      <div class="card">
+        <img src="m4.png" class="pht">
+        <div class="card-header">
+          <h4 class="title">maillot de la tunisie</h4>
+          <h4 class="price">89DT</h4>
+        </div>
+        <div class="card-body">
+          <p>Maillot de la tunisie exterieur 2022</p>
+        </div>
+      </div>
+      
+     </div>
+     <div class="cards">
+      
+        <div class="card">
+          <img src="m2.png" class="pht">
+          <div class="card-header">
+            <h4 class="title">Maillot d'entrainement</h4>
+            <h4 class="price">65DT</h4>
+          </div>
+          <div class="card-body">
+            <p>Maillots d'entrainement Espérance Sportive de Zarzis</p>
+          </div>
+        </div>
+        
+        <div class="card">
+          <img src="m5.png" class="pht">
+          <div class="card-header">
+            <h4 class="title">Maillot d'entrainement</h4>
+            <h4 class="price">60DT</h4>
+          </div>
+          <div class="card-body">
+            <p>Maillots d'entrainement Espérance Sportive de Zarzis</p>
+          </div>
+        </div>
+        
+        <div class="card">
+          <img src="m7.png" class="pht">
+          <div class="card-header">
+            <h4 class="title">maillot de Zarzis</h4>
+            <h4 class="price">65DT</h4>
+          </div>
+          <div class="card-body">
+            <p>Maillot de Espérance Sportive de Zarzis</p>
+          </div>
+        </div>
+        
+       </div>
+       <div class="cards">
+      
+        <div class="card">
+          <img src="m8.png" class="pht">
+          <div class="card-header">
+            <h4 class="title">maillot de Zarzis</h4>
+            <h4 class="price">65DT</h4>
+          </div>
+          <div class="card-body">
+            <p>Maillot de Espérance Sportive de Zarzis</p>
+          </div>
+        </div>
+        
+        <div class="card">
+          <img src="m9.png" class="pht">
+          <div class="card-header">
+            <h4 class="title">maillot de Zarzis</h4>
+            <h4 class="price">89DT</h4>
+          </div>
+          <div class="card-body">
+            <p>Maillot de Espérance Sportive de Zarzis</p>
+          </div>
+        </div>
+        
+        <div class="card">
+          <img src="m10.png" class="pht">
+          <div class="card-header">
+            <h4 class="title">Maillot d'entrainement</h4>
+            <h4 class="price">70DT</h4>
+          </div>
+          <div class="card-body">
+            <p>Maillot d'entrainement d'equipe de la tunisie 2022</p>
+          </div>
+        </div>
+        
+       </div>
+    <!-- Fin de toutes les cartes -->
+    
+    <!-- Video de presentation 
+    <div class="video">
+      <iframe src="https://www.youtube.com/embed/2COSkxxOtXY" allowfullscreen></iframe>
+    </div>
+    Fin de la video de presentation -->
+  </section>
+  <!-- Fin de la section principale -->
+  
+  <!-- Pied de page -->
+  <footer>
+    <p>&copy; Contactez-nous au 99 99 99 99</p>
+    <div class="social-media">
+      <p><i class="fab fa-facebook-f"></i></p>
+      <p><i class="fab fa-twitter"></i></p>
+      <p><i class="fab fa-instagram"></i></p>
+      <p><i class="fab fa-linkedin-in"></i></p>
+    </div>
+  </footer>
+  <!-- Fin du pied de page -->
+</body>
+
+</html>
